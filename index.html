@@ -7,25 +7,41 @@
     <title>To-Do List</title>
     <link rel="Stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1>Task List</h1>
-        <form id="new-task-form">
-            <input type="text" name="new-task-input" id="new-task-input" placeholder="Enter the task">
-            <input type="submit" id="new-task-submit" value="Add task">
+    <div class="wrapper">
+        <header>Task List</header>
+        <form id="mew-task-form">
+            <input type="text" id="new-task-input" placeholder="Enter the task">
+            <input type="submit" id="new-task-submit" value="Add Task">
         </form>
-    </header>
-
-    <main>
-        <section class="task-list">
-            <h2>Your Tasks:</h2>
-            <div id="tasks">
-
-            </div>
-        </section>
-    </main>
+        <main>
+            <section class="task-list">
+                <h1>Your Tasks</h1>
+                <div id="tasks">
+                    <div class="task">
+                        <div class="content">
+                            <input type="text" class="text" value="For example: Coding" readonly>
+                        </div>
+                        <div class="actions">
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
 
     <script src="script.js"></script>
-    
+
 </body>
 </html>
+
+
+
+
+
+
+
+
