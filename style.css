@@ -20,8 +20,8 @@ header {
 	margin: 0 auto;
 }
 
-header h1{
-    text-align: center;
+header h1{ 
+	text-align: center;
 	font-size: 2.5rem;
 	font-weight: 300;
 	color: #FFF;
@@ -41,7 +41,7 @@ input, button {
 
 #new-task-input {
 	flex: 1 1 0%;
-    background: linear-gradient(to left, #c33764, #1d2671);
+	background: linear-gradient(to left, #c33764, #1d2671);
 	padding: 1rem;
 	border-radius: 1rem;
 	margin-right: 1rem;
@@ -57,7 +57,7 @@ input, button {
 	color: #EC4899;
 	font-size: 1.25rem;
 	font-weight: 700;
-    background-color: #FFF;
+	background-color: #FFF;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	cursor: pointer;
